@@ -9,7 +9,7 @@ body {
 .container {
     max-width: 700px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: #ffd1dc; /* Fondo rosa pastel */
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -96,9 +96,7 @@ main {
 }
 
 .hero {
-    background-image: url('tu-imagen.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: #f8f9fa;
     color: #fff;
     text-align: center;
     padding: 120px 0;
@@ -140,13 +138,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 25px 0;
-}
-
-body {
-    background-image: url('hotel.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 /* Estilos para el modo oscuro */
