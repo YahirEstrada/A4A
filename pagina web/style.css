@@ -1,73 +1,72 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0e0e0;
     margin: 0;
     padding: 0;
-    cursor:crosshair;
+    cursor: default;
 }
 
 .container {
-    max-width: 600px;
-    margin: 15px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px hsl(177, 84%, 52%);
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #444;
 }
 
 form {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 fieldset {
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
+    border: 1px solid #bbb;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 8px;
 }
 
 legend {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
-    color: #333;
+    color: #444;
 }
 
 .input-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .input-group label {
     display: block;
-    margin-bottom: 5px;
-    color: #666;
+    margin-bottom: 8px;
+    color: #555;
 }
 
 .input-group input {
-    width: calc(100% - 22px);
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: calc(100% - 24px);
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 12px 25px;
+    background-color: #28a745;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #218838;
 }
-/* Estilos adicionales para el homepage */
 
 /* Reset de estilos */
 * {
@@ -77,25 +76,23 @@ button:hover {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0e0e0;
 }
 
 header {
-
+    background-color: #343a40;
     color: #fff;
-    padding: 20px 0;
+    padding: 30px 0;
     text-align: center;
-
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 main {
-    padding: 20px;
+    padding: 25px;
 }
 
 .hero {
@@ -104,46 +101,47 @@ main {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    padding: 120px 0;
 }
 
 .hero-content {
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
 }
 
 .hero h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #000000;
+    font-size: 38px;
+    margin-bottom: 25px;
+    color: #000;
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
-    color: #000000;
+    font-size: 20px;
+    margin-bottom: 35px;
+    color: #000;
 }
 
 .hero a {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 12px 25px;
+    background-color: #28a745;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
     transition: background-color 0.3s ease;
 }
 
 .hero a:hover {
-    background-color: #0056b3;
+    background-color: #218838;
 }
 
 footer {
-    background-color: #333;
+    background-color: #343a40;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 25px 0;
 }
+
 body {
     background-image: url('hotel.jpeg');
     background-size: cover;
@@ -151,31 +149,28 @@ body {
     background-attachment: fixed;
 }
 
-/* Aquí puedes agregar más estilos CSS según sea necesario */
 /* Estilos para el modo oscuro */
 body[data-modo="oscuro"] {
-    background-color: #333;
-    color: #fff;
+    background-color: #222;
+    color: #ddd;
 }
 
 .container[data-modo="oscuro"] {
-    background-color: rgba(10, 10, 10, 0.1);
-    box-shadow: 0 0 10px rgba(16, 15, 15, 0.1);
+    background-color: rgba(50, 50, 50, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 h1[data-modo="oscuro"] {
-    color: #fff;
+    color: #ddd;
 }
 
 .input-group input[data-modo="oscuro"],
 input[type="checkbox"][data-modo="oscuro"] {
-    border: 1px solid #fff;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #fff;
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ddd;
 }
 
 label[data-modo="oscuro"] {
-    color: #fff;
+    color: #ddd;
 }
-
-
